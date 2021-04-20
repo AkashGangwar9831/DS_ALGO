@@ -5,7 +5,7 @@ using namespace std;
 
 bool Check_prime(int a)
 {
-    if(a==1) 
+    if(a==0||a==1) 
         return(false);
     if(a==2 || a==3) 
         return(true);
